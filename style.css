@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background-color: #000;
+    font-family: 'Rammetto One', cursive;
+
+}
+
+a.navbar-brand {
+    color: #CF0A0A;
+    text-decoration: underline;
+}
+
+a.nav-link {
+    color: #CF0A0A;
+}
+
+.question-mark {
+    color: #CF0A0A;
+}
+.h1-sidelane-text {
+    color: lightgray;
+}
+
+.h3-sidelane-text {
+    color: lightgray;
+}
+
+h3.title-second {
+    font-family: 'Rammetto One', cursive;
+}
+
+
+.card {
+    margin: 10px;
+}
+
+
+
+.category-card {
+text-align: right;
+font-size: 10px;
+}
+
+.img-holder {
+    overflow: hidden;
+}
+
+.img-holder img {
+    transition: all 1.5s ease;
+}
+
+.img-holder:hover img {
+    transform: scale(1.5);
+}
+
+
+.paralax {
+    background-image: url(/assets/pexels-dio-alif-utomo-1525589.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#second {
+
+}
+
+#third a {
+    font-style: normal;
+    font-weight: normal;
+    color: lightblue;
+    text-decoration: none;
+}
